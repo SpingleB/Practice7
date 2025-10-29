@@ -1,0 +1,366 @@
+.font-barlow-600 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.font-barlow-500 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+body {
+  background-color: hsl(214, 17%, 92%);
+  display: flex;
+  justify-content: center;
+}
+
+.daniel-clifford {
+  box-sizing: border-box;
+  width: 90%;
+  height: auto;
+  background-color: hsl(263, 55%, 52%);
+  padding: 9% 9% 7% 9%;
+  border-radius: 10px;
+  color: hsl(0, 0%, 81%);
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.18), -6px -6px 12px rgba(255, 255, 255, 0.7);
+}
+
+.daniel-clifford_header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.daniel-clifford__header--photo {
+  height: 100%;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.daniel-clifford__header--photo img {
+  width: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid hsl(264, 82%, 80%);
+}
+
+.daniel-clifford__header--name {
+  display: inline-block;
+  width: 100%;
+  margin-left: 6%;
+}
+.daniel-clifford__header--name p {
+  display: block;
+  margin: 0;
+  height: 50%;
+}
+
+.daniel-clifford__description {
+  display: inline-block;
+  margin-top: 7%;
+}
+.daniel-clifford__description p {
+  color: hsl(214, 17%, 92%);
+  font-size: 20px;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+.daniel-clifford__main-text {
+  display: inline-block;
+}
+.daniel-clifford__main-text p {
+  margin-top: 0%;
+}
+
+.jeanette-harmon {
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  width: 90%;
+  height: auto;
+  margin-top: 4vh;
+  padding: 9% 9% 7% 9%;
+  color: hsl(217, 19%, 35%);
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.18), -6px -6px 12px rgba(255, 255, 255, 0.7);
+}
+
+.jeanett-harmon__header {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.jeanett-harmon__header--photo {
+  height: 100%;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jeanett-harmon__header--photo img {
+  width: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.jeanette-harmon__header--name {
+  display: inline-block;
+  width: 100%;
+  margin-left: 6%;
+}
+.jeanette-harmon__header--name p {
+  display: block;
+  margin: 0;
+  height: 50%;
+}
+.jeanette-harmon__header--name p:last-child {
+  color: hsl(224, 10%, 45%);
+}
+
+.jeanette-harmon__description {
+  display: inline-block;
+  margin-top: 7%;
+}
+.jeanette-harmon__description p {
+  font-size: 21px;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+.jeanette-harmon__main-text {
+  display: inline-block;
+}
+.jeanette-harmon__main-text p {
+  margin-top: 0%;
+  color: hsl(224, 10%, 45%);
+}
+
+.jonathan-walters {
+  box-sizing: border-box;
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 10px;
+  width: 90%;
+  height: auto;
+  margin-top: 4vh;
+  padding: 9% 9% 7% 9%;
+  color: hsl(0, 0%, 100%);
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.18), -6px -6px 12px rgba(255, 255, 255, 0.7);
+}
+
+.jonathan-walters__header {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.jonathan-walters__header--photo {
+  height: 100%;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jonathan-walters__header--photo img {
+  width: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.jonathan-walters__name {
+  display: inline-block;
+  width: 100%;
+  margin-left: 6%;
+}
+.jonathan-walters__name p {
+  display: block;
+  margin: 0;
+  height: 50%;
+}
+.jonathan-walters__name p:last-child {
+  color: hsl(0, 0%, 81%);
+}
+
+.jonathan-walters__description {
+  display: inline-block;
+  margin-top: 7%;
+}
+.jonathan-walters__description p {
+  font-size: 21px;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+.jonathan-walters__main-text {
+  display: inline-block;
+}
+.jonathan-walters__main-text p {
+  margin-top: 0%;
+  color: hsl(0, 0%, 81%);
+}
+
+.kira-whittle {
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  width: 90%;
+  height: auto;
+  margin-top: 4vh;
+  padding: 9% 9% 7% 9%;
+  color: hsl(217, 19%, 35%);
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.18), -6px -6px 12px rgba(255, 255, 255, 0.7);
+}
+
+.kira-whittle__header {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.kira-whittle__header--photo {
+  height: 100%;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kira-whittle__header--photo img {
+  width: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.kira-whittle__header--name {
+  display: inline-block;
+  width: 100%;
+  margin-left: 6%;
+}
+.kira-whittle__header--name p {
+  display: block;
+  margin: 0;
+  height: 50%;
+}
+.kira-whittle__header--name p:last-child {
+  color: hsl(224, 10%, 45%);
+}
+
+.kira-whittle__description {
+  display: inline-block;
+  margin-top: 7%;
+}
+.kira-whittle__description p {
+  font-size: 21px;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+.kira-whittlle__main-text {
+  display: inline-block;
+}
+.kira-whittlle__main-text p {
+  margin-top: 0%;
+  color: hsl(224, 10%, 45%);
+}
+
+.patrick-abrams {
+  box-sizing: border-box;
+  background-color: hsl(219, 29%, 14%);
+  border-radius: 10px;
+  width: 90%;
+  height: auto;
+  margin-top: 4vh;
+  padding: 9% 9% 7% 9%;
+  color: hsl(0, 0%, 81%);
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.18), -6px -6px 12px rgba(255, 255, 255, 0.7);
+}
+
+.patrick-abrams__header {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.patrick-abrams__header--photo {
+  height: 100%;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.patrick-abrams__header--photo img {
+  width: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.patrick--abrams__header--name {
+  display: inline-block;
+  width: 100%;
+  margin-left: 6%;
+}
+.patrick--abrams__header--name p {
+  display: block;
+  margin: 0;
+  height: 50%;
+}
+
+.patrick-abrams_description {
+  display: inline-block;
+  margin-top: 7%;
+}
+.patrick-abrams_description p {
+  font-size: 21px;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+.patrick-abrams__main-text {
+  display: inline-block;
+}
+.patrick-abrams__main-text p {
+  margin-top: 0%;
+}
+
+.container {
+  width: 90vw;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5vh 0;
+}
+
+@media (min-width: 601px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+    background-color: black;
+  }
+  .daniel-clifford {
+    grid-column: span 2/span 2;
+  }
+  .jonathan-walters {
+    grid-column-start: 3;
+    grid-row-start: 1;
+  }
+}
+
+/*# sourceMappingURL=_media.css.map */

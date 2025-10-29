@@ -1,0 +1,133 @@
+@media (min-width: 602px) and (max-width: 901px){
+    body {
+        height: 100vh;
+    }
+
+    .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+    width: 80vw;
+    height: 70vh;
+    row-gap: 8px;
+    background-color: black;
+    overflow: hidden;
+    }
+
+    .daniel-clifford {
+    grid-column: span 2 / span 2;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+    .jonathan-walters {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+    .jeanette-harmon {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+    .patrick-abrams {
+    grid-column: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+    .kira-whittle {
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    }
+}
+
+@media (max-width: 601px) {
+    .container {
+    width: 90vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vh 0;
+}
+}
+
+@media (min-width: 902px) {
+
+    body {
+        height: 100vh;
+    }
+
+    .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 70vw;
+    height: 60vh;
+    row-gap: 10px;
+    box-sizing: border-box;
+    }
+
+    .daniel-clifford {
+    grid-column: span 2 / span 2;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    }
+
+    .jonathan-walters {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    }
+
+    .jeanette-harmon {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    }
+
+    .patrick-abrams {
+    grid-column: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    }
+
+    .kira-whittle {
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    }
+}

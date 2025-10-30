@@ -1,69 +1,128 @@
 @media (min-width: 602px) and (max-width: 901px){
     body {
-        height: 100vh;
+        height: var(--height-100vh);
     }
 
     .container {
-    display: grid;
+    display: var(--display-grid);
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 8px;
-    width: 80vw;
-    height: 70vh;
+    gap: 15px;
+    width: var(--width-90vw);
+    height: 60vh;
     row-gap: 8px;
-    background-color: black;
-    overflow: hidden;
+    box-sizing: var(--box-sizing);
     }
 
     .daniel-clifford {
+    display: var(--display-flex);
+    flex-direction: var(--flex-column);
     grid-column: span 2 / span 2;
     margin: 0;
-    width: 100%;
-    height: 100%;
+    width: var(--width-100per);
+    height: var(--height-auto);
+    padding: var(--tablet-cart-padding);
+    box-sizing: var(--box-sizing);
+
+            .daniel-clifford__description {
+            margin-top: var(--margin-top-4per);
+            p {
+               font-size: var(--font-size-20);
+            }
+        }
+
     }
 
     .jonathan-walters {
+    display: var(--display-flex);
+    flex-direction: var(--flex-column);
     grid-column-start: 3;
     grid-row-start: 1;
     margin: 0;
-    width: 100%;
-    height: 100%;
+    width: var(--width-100per);
+    height: var(--height-auto);
+    padding: var(--tablet-cart-padding);
+    box-sizing: var(--box-sizing);
+
+                .jonathan-walters__description {
+            margin-top: var(--margin-top-4per);
+            p {
+                font-size: var(--font-size-20);
+            }
+        }
+        
     }
 
     .jeanette-harmon {
+    display: var(--display-flex);
+    flex-direction: var(--flex-column);
     grid-column-start: 1;
     grid-row-start: 2;
     margin: 0;
-    width: 100%;
-    height: 100%;
+    width: var(--width-100per);
+    height: var(--height-auto);
+    padding: var(--tablet-cart-padding);
+    box-sizing: var(--box-sizing);
+
+                .jeanette-harmon__description {
+            margin-top: var(--margin-top-4per);
+            p {
+                font-size: var(--font-size-20);
+            }
+        }
+        
     }
 
     .patrick-abrams {
+    display: var(--display-flex);
+    flex-direction: var(--flex-column);
     grid-column: span 2 / span 2;
     grid-column-start: 2;
     grid-row-start: 2;
     margin: 0;
-    width: 100%;
-    height: 100%;
+    width: var(--width-100per);
+    height: var(--height-auto);
+    padding: var(--tablet-cart-padding);
+    box-sizing: var(--box-sizing);
+
+                .patrick-abrams_description {
+            margin-top: var(--margin-top-4per);
+            p {
+                font-size: var(--font-size-20);
+            }
+    }
+
     }
 
     .kira-whittle {
+    display: var(--display-flex);
+    flex-direction: var(--flex-column);
     grid-row: span 2 / span 2;
     grid-column-start: 4;
     grid-row-start: 1;
     margin: 0;
-    width: 100%;
-    height: 100%;
+    width: var(--width-100per);
+    height: var(--height-auto);
+    padding: var(--tablet-cart-padding);
+    
+
+                .kira-whittle__description {
+            margin-top: var(--margin-top-5per);
+            p {
+                font-size: var(--font-size-20);
+            }
+        }
+        
     }
 }
 
 @media (max-width: 601px) {
     .container {
-    width: 90vw;
-    height: auto;
-    display: flex;
+    width: var(--width-90vw);
+    height: var(--height-auto);
+    display: var(--display-flex);
     align-items: center;
-    flex-direction: column;
+    flex-direction: var(--flex-column);
     padding: 5vh 0;
 }
 }
@@ -71,44 +130,74 @@
 @media (min-width: 902px) {
 
     body {
-        height: 100vh;
+        height: var(--height-100vh);
     }
 
     .container {
-    display: grid;
+    display: var(--display-grid);
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
-    width: 70vw;
+    gap: 30px;
+    width: 60vw;
     height: 60vh;
-    row-gap: 10px;
+    row-gap: 15px;
     box-sizing: border-box;
     }
 
     .daniel-clifford {
     grid-column: span 2 / span 2;
     margin: 0;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
+    width: var(--width-100per);
+    height: var(--height-auto);
+    box-sizing: var(--box-sizing);
+    padding: var(--tablet-cart-padding);
+
+        .daniel-clifford__description {
+            margin-top: var(--margin-top-4per);
+            p {
+               font-size: var(--font-size-20);
+            }
+        }
+
+
     }
 
     .jonathan-walters {
     grid-column-start: 3;
     grid-row-start: 1;
     margin: 0;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
+    width: var(--width-100per);
+    height: var(--height-auto);
+    box-sizing: var(--box-sizing);
+    padding: var(--desktop-cart-padding);
+
+        .jonathan-walters__description {
+            margin-top: var(--margin-top-4per);
+            p {
+                font-size: var(--font-size-20);
+            }
+        }
+
+
     }
 
     .jeanette-harmon {
     grid-column-start: 1;
     grid-row-start: 2;
     margin: 0;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
+    width: var(--width-100per);
+    height: var(--height-auto);
+    box-sizing: var(--box-sizing);
+    padding: var(--desktop-cart-padding);
+
+        .jeanette-harmon__description {
+            margin-top: var(--margin-top-4per);
+            p {
+                font-size: var(--font-size-20);
+            }
+        }
+
+
     }
 
     .patrick-abrams {
@@ -116,18 +205,34 @@
     grid-column-start: 2;
     grid-row-start: 2;
     margin: 0;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
+    width: var(--width-100per);
+    height: var(--height-auto);
+    box-sizing: var(--box-sizing);
+    padding: 5% 6% 0% 6%;
+
+        .patrick-abrams_description {
+            margin-top: var(--margin-top-4per);
+            p {
+                font-size: var(--font-size-20);
+            }
     }
+}
 
     .kira-whittle {
     grid-row: span 2 / span 2;
     grid-column-start: 4;
     grid-row-start: 1;
     margin: 0;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
+    width: var(--width-100per);
+    height: var(--height-auto);
+    box-sizing: var(--box-sizing);
+    padding: var(--desktop-cart-padding);
+
+        .kira-whittle__description {
+            margin-top: var(--margin-top-5per);
+            p {
+                font-size: var(--font-size-20);
+            }
+        }
     }
 }

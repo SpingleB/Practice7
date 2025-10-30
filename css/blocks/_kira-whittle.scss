@@ -1,68 +1,66 @@
 .kira-whittle {
-    box-sizing: border-box;
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 10px;
-    width: 90%;
-    height: auto;
-    margin-top: 4vh;
-    padding: 9% 9% 7% 9%;
-    color: hsl(217, 19%, 35%);
-    box-shadow:
-    20px 20px 40px rgba(0, 0, 0, 0.18),
-    -6px -6px 12px rgba(255, 255, 255, 0.7);
+    box-sizing: var(--box-sizing);
+    background-color: var(--white);
+    border-radius: var(--cart-border-radius);
+    width: var(--width-90per);
+    height: var(--height-auto);
+    margin-top: var(--margin-top-4vh);
+    padding: var(--default-cart-padding);
+    color: var(--grey-500);
+    box-shadow: var(--shadow);
 }
 
 .kira-whittle__header {
-    width: 100%;
-    display: flex;
-    justify-content: start;
-    align-items: center;
+    width: var(--width-100per);
+    display: var(--display-flex);
+    justify-content: var(--justify-content-start);
+    align-items: var(--align-items);
 }
 
 .kira-whittle__header--photo {
-    height: 100%;
+    height: var(--height-100per);
     aspect-ratio: 1 / 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: var(--display-flex);
+    align-items: var(--align-items);
+    justify-content: var(--justify-content);
 
     img {
-    width: 30px;
-    object-fit: cover;
-    border-radius: 50%;
+    width: var(--photo-width);
+    object-fit: var(--object-fit);
+    border-radius: var(--photo-border-radius);
     }
 }
 
 .kira-whittle__header--name {
-    display: inline-block;
-    width: 100%;
-    margin-left: 6%;
+    display: var(--display-inline-block);
+    width: var(--width-100per);
+    margin-left: var(--margin-left-6per);
 
     p{
-        display: block;
-        margin: 0;
-        height: 50%;
+        display: var(--display-block);
+        margin: var(--margin-0);
+        height: var(--height-50per);
     }
 
     p:last-child{
-        color: hsl(224, 10%, 45%);
+        color: var(--grey-400);
     }
 }
 
 .kira-whittle__description {
-    display: inline-block;
-    margin-top: 7%;
+    display: var(--display-inline-block);
+    margin-top: var(--margin-top-7per);
     p {
-        font-size: 21px;
-        margin-top: 0;
+        font-size: var(--font-size-21);
+        margin-top: var(--margin-0);
         font-weight: 500;
     }
 }
 
 .kira-whittlle__main-text {
-    display: inline-block;
+    display: var(--display-inline-block);
     p{
-        margin-top: 0%;
-        color: hsl(224, 10%, 45%);
+        margin-top: var(--margin-0);
+        color: var(--grey-400);
     }
 }

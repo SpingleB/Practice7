@@ -1,3 +1,40 @@
 :root {
-    
+    --display-flex: flex;
+    --display-grid: grid;
+    --display-block: block;
+    --display-inline-block: inline-block;
+    --align-items: center;
+    --justify-content: center;
+    --justify-content-start: start;
+    --object-fit: cover;
+    --flex-column: column;
+    --box-sizing: border-box;
+    --cart-border-radius: 10px;
+    --photo-border-radius: 50%;
+    --photo-width: 30px;
+    --width-90per: 90%;
+    --width-100per: 100%
+    --width-90vw: 90vw;
+    --height-auto: auto;
+    --height-50per: 50%;
+    --height-100per: 100%;
+    --height-100vh: 100vh;
+    --default-cart-padding: 9% 9% 7% 9%;
+    --tablet-cart-padding: 5% 5% 0% 5%;
+    --desktop-cart-padding: 5% 9% 0% 9%;
+    --margin-top-4per: 4%;
+    --margin-top-5per: 5%;
+    --margin-top-7per: 7%;
+    --margin-top-4vh: 4vh;
+    --margin-left-6per: 6%;
+    --margin-0: 0;
+    --white: hsl(0, 0%, 100%);
+    --grey-100: hsl(214, 17%, 92%);
+    --grey-200: hsl(0, 0%, 81%);
+    --grey-400: hsl(224, 10%, 45%);
+    --grey-500: hsl(217, 19%, 35%);
+    --purple-500: hsl(263, 55%, 52%);
+    --shadow: 20px 20px 40px rgba(0, 0, 0, 0.18);
+    --font-size-20: 20px;
+    --font-size-21: 21px; 
 }

@@ -1,66 +1,64 @@
 .daniel-clifford {
-    box-sizing: border-box;
-    width: 90%;
-    height: auto;
-    background-color: hsl(263, 55%, 52%);
-    padding: 9% 9% 7% 9%;
-    border-radius: 10px;
-    color: hsl(0, 0%, 81%);
-    box-shadow:
-    20px 20px 40px rgba(0, 0, 0, 0.18),
-    -6px -6px 12px rgba(255, 255, 255, 0.7);
+    box-sizing: var(--box-sizing);
+    width: var(--width-90per);
+    height: var(--height-auto);
+    background-color: var(--purple-500);
+    padding: var(--default-cart-padding);
+    border-radius: var(--cart-border-radius);
+    color: var(--grey-200);
+    box-shadow: var(--shadow);
 }
 
 .daniel-clifford_header {
-    width: 100%;
+    width: var(--width-100per);
     height: 10%;
-    display: flex;
-    justify-content: start;
-    align-items: center;
+    display: var(--display-flex);
+    justify-content: var(--justify-content-start);
+    align-items: var(var(--align-items));
 }
 
 .daniel-clifford__header--photo {
-    height: 100%;
+    height: var(--height-100per);
     aspect-ratio: 1 / 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: var(--display-flex);
+    align-items: var(--align-items);
+    justify-content: var(--justify-content);
 
     img {
-    width: 30px;
-    object-fit: cover;
-    border-radius: 50%;
+    width: var(--photo-width);
+    object-fit: var(--object-fit);
+    border-radius: var(--photo-border-radius);
     border: 2px solid hsl(264, 82%, 80%);
     }
         
 }
 
 .daniel-clifford__header--name {
-    display: inline-block;
-    width: 100%;
-    margin-left: 6%;
+    display: var(--display-inline-block);
+    width: var(--width-100per);
+    margin-left: var(--margin-left-6per);
     
     p{
-        display: block;
-        margin: 0;
-        height: 50%;
+        display: var(--display-block);
+        margin: var(--margin-0);
+        height: var(--height-50per);
     }
 }
 
 .daniel-clifford__description {
-    display: inline-block;
-    margin-top: 7%;
+    display: var(--display-inline-block);
+    margin-top: var(--margin-top-7per);
     p {
-        color: hsl(214, 17%, 92%);
-        font-size: 20px;
-        margin-top: 0;
+        color: var(--grey-100);
+        font-size: var(--font-size-20);
+        margin-top: var(--margin-0);
         font-weight: 500;
     }
 }
 
 .daniel-clifford__main-text {
-       display: inline-block;
+       display: var(--display-inline-block);
     p{
-        margin-top: 0%;
+        margin-top: var(--margin-0);
     }
 }
